@@ -22,3 +22,16 @@ resource "google_compute_router" "router-tokyo" {
   region  = "asia-northeast1"
   network = google_compute_network.summer-ready.id
 }
+
+#routers for prod1 vpc
+resource "google_compute_router" "router-iowa-app01" {
+  name    = "router-iowa-app01"
+  region  = "us-central1"
+  network = google_compute_network.prod1.id
+}
+
+resource "google_compute_router" "router-tokyo-app01" {
+  name    = "router-tokyo-app01"
+  region  = "asia-northeast1"
+  network = google_compute_network.prod1.id
+}
