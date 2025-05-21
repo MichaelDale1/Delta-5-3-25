@@ -53,23 +53,3 @@ resource "google_compute_subnetwork" "tokyo2" {
   
 }
 
-#subnets for prod1 vpc
-
-resource "google_compute_subnetwork" "iowa-app01" {
-  name                     = "iowa-app01"
-  ip_cidr_range            = "10.32.18.0/24"
-  region                   = "us-central1"
-  network                  = google_compute_network.prod1.id
-  private_ip_google_access = true
-  
-}
-
-
-resource "google_compute_subnetwork" "tokyo-app01" {
-  name                     = "tokyo-app01"
-  ip_cidr_range            = "10.32.38.0/24"
-  region                   = "asia-northeast1"
-  network                  = google_compute_network.prod1.id
-  private_ip_google_access = true
-  
-}
