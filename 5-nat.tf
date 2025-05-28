@@ -20,9 +20,9 @@ resource "google_compute_address" "nat-iowa" {
   name         = "nat-iowa"
   address_type = "EXTERNAL"
   network_tier = "PREMIUM"
-#Theo deleted this line
+  #Theo deleted this line
   /*depends_on = [google_project_service.compute]*/
-#Unnecessary line because iowa is the default region  
+  #Unnecessary line because iowa is the default region  
   region = "us-central1"
 }
 
@@ -48,7 +48,7 @@ resource "google_compute_address" "nat-tokyo" {
   name         = "nat-tokyo"
   address_type = "EXTERNAL"
   network_tier = "PREMIUM"
-#Theo deleted this line
+  #Theo deleted this line
   /*depends_on = [google_project_service.compute]*/
   region = "asia-northeast1"
 

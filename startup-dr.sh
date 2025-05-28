@@ -32,7 +32,7 @@ cat <<EOF > /var/www/html/index.html
     body,h1,h3 {font-family: "Raleway", sans-serif}
     body, html {height: 100%}
     .bgimg {
-      background-image: url('https://images.pexels.com/photos/15585584/pexels-photo-15585584/free-photo-of-the-adriatic-sea-somewhere-in-montenegro.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+      background-image: url('https://images.pond5.com/san-blas-islands-panama-tropical-photo-275555891_iconl.jpeg');
       min-height: 100%;
       background-position: center;
       background-size: cover;
@@ -56,8 +56,8 @@ cat <<EOF > /var/www/html/index.html
   <div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
     <div class="w3-display-topleft w3-padding-large w3-xlarge"></div>
     <div class="w3-display-middle w3-center">
-      <iframe src="https://videos.pond5.com/samba-dancer-carnival-costume-gyrating-footage-080727149_main_xxl.mp4"
-              width="400"
+      <iframe src="https://videos.pond5.com/beneath-tropical-caribbean-sun-young-footage-245696260_main_xxl.mp4"
+              width="500"
               height="270"
               style="border-radius:10px;"
               frameBorder="0"

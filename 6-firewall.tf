@@ -40,7 +40,7 @@ resource "google_compute_firewall" "allow-icmp" {
 
   allow {
     protocol = "icmp"
-    
+
   }
 
   source_ranges = ["0.0.0.0/0"]

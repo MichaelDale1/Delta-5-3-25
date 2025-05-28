@@ -1,7 +1,7 @@
 # https://registry.terraform.io/providers/hashicorp/google/latest/docs
 provider "google" {
-  project = "gcpworldboss3-11-25"
-  region  = "us-central1"
+  project     = "gcpworldboss3-11-25"
+  region      = "us-central1"
   credentials = "gcpworldboss3-11-25-12ccb4a9a9a6.json"
 }
 
